@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* NAVAGATION */
+#wrapper{
+    width: 0px auto;
+    margin: 0px auto;
+    background-color: #062133;
+    padding: 20px;
+}
+#nav{
+    padding: 20px;
+}
+#nav, ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#name{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-right: 8px;
+}
+#consulting{
+    
+    color: #1999e8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+ul{
+    flex: 5;
+}
+li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.redirect{
+    text-decoration: none;
+    color: white;
+}
+.home{
+    text-decoration: none;
+    color: #31678d;
+}
+/* MAIN */
+#main{
+    padding: 20px;
+    background-color: white;
+}
+/* IMAGE */
+#main>img{
+    width: 100%;
+    padding-bottom: 18px;
+}
+/* CONTENT */
+#content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.heading{
+    display: flex;
+    align-items:center;
+    margin-bottom: 10px;
+}
+
+/* SERVICES */
+#services{
+    height: 275px;
+    width: 400px;
+    padding: 15px;
+    background-color: #1567a8;
+    /* display: flex; */
+    align-content: center;
+    justify-content: center;
+}
+#services img{
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 30px;
+}
+#services h3{
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 100;
+    margin-left: 4px;
+}
+#services p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    padding: 0px 18px 18px 18px;
+}
+#services button{
+    width: 130px;
+    height: 50px;
+    color: white;
+    background-image: linear-gradient(#51b2ed,#1791dc);
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+/* PROJECTS */
+#projects{
+    height: 275px;
+    width: 400px;
+    padding: 15px;
+    background-color: #1567a8;
+    align-content: center;
+    justify-content: center;
+}
+#projects img{
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 30px;
+}
+#projects h3{
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 100;
+    margin-left: 4px;
+}
+#projects p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 18px;
+    padding-right: 0px 18px 18px 18px;
+}
+#projects button{
+    width: 130px;
+    height: 50px;
+    color: white;
+    background-image: linear-gradient(#51b2ed,#1791dc);
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+/* CLIENTS */
+#clients{
+    height: 275px;
+    width: 400px;
+    padding: 15px;
+    background-color: #1567a8;
+    align-content: center;
+    justify-content: center;
+}
+#clients img{
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 30px;
+}
+#clients h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 100;
+    margin-left: 4px;
+}
+#clients p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    padding: 0px 18px 18px 18px;
+}
+#clients button{
+    width: 130px;
+    height: 50px;
+    color: white;
+    background-image: linear-gradient(#51b2ed,#1791dc);
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+/* SOLUTIONS */
+#solutions{
+    display: flex;
+    justify-content: space-between;
+}
+/* IMAGE */
+#building{
+    height: 275px;
+    width: 430px;
+    align-content: center;
+    justify-content: center;
+}
+#building>h3{
+    width: 425px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+#building>img{
+    height: 200px;
+    width: 415px;
+}
+/* MISSION STATEMENT */
+#mission-statement{
+    height: 235px;
+    width: 430px;
+    align-content: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+#mission-statement>p{
+    width: 425px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mission-statement>a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+/* TESTIMONIAL */
+#testimonial{
+    height: 275px;
+    width: 430px;
+    align-content: center;
+    justify-content: center;
+}
+#testimonial>h3{
+    width: 425px;
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-style: italic;
+    font-weight: 100;
+    font-size: 23px;
+    padding: 20px 20px 35px 20px;
+    background-color: #daecff;
+}
+#testimonial>p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+/* FOOTER */
+#footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #daecff;
+    margin-top: 2px;
+}
+ul{
+    display: inline-flex;
+}
+.footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-nav li{
+    margin:0px 40px 0px 40px;
+}
+.redirect{
+    text-decoration: none;
+    color: #31678d;
+}
+.home{
+    text-decoration: none;
+    color: #1999e8;
+}
